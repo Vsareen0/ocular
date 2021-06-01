@@ -1,0 +1,10 @@
+{
+  "lerna": "4.0.0",
+  "packages": ["src/components/*"],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md", "tests/*", "ignored-files"]
+    }
+  }
+}

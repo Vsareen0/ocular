@@ -1,0 +1,29 @@
+{
+  "name": "ocular-buttons",
+  "version": "1.0.0",
+  "description": "Buttons made with Ocular",
+  "keywords": [
+    "buttons"
+  ],
+  "author": "Vinamra Sareen <vsareen24@gmail.com>",
+  "homepage": "https://github.com/Vsareen0/ocular/tree/main/src/components/Buttons#readme",
+  "license": "MIT",
+  "main": "lib/Buttons.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vsareen0/ocular.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Vsareen0/ocular/issues"
+  }
+}
