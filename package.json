@@ -5,6 +5,7 @@
   },
   "private": false,
   "devDependencies": {
+    "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
@@ -29,7 +30,7 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
-    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js",
+    "build": "lerna exec --parallel -- babel --root-mode upward lib -d src --ignore **/*.stories.js,**/*.spec.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "publish": "lerna publish --canary",
