@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-require("../../../styles/button.css");
+require("./styles/button.css");
 
 var _excluded = ["primary", "backgroundColor", "size", "label"];
 
