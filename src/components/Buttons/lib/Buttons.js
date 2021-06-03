@@ -5,7 +5,13 @@ import "../../../styles/button.css";
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+export default Button = ({
+  primary,
+  backgroundColor,
+  size,
+  label,
+  ...props
+}) => {
   const mode = primary ? "ocular-button--primary" : "ocular-button--secondary";
   return (
     <button

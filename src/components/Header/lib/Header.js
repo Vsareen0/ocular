@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Button } from "../../Buttons/lib/Buttons";
+import { default as Button } from "../../Buttons/lib/Buttons";
 import "../../../styles/header.css";
 
-export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
+export default Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <header>
     <div className="wrapper">
       <div>

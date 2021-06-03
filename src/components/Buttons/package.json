@@ -1,6 +1,6 @@
 {
   "name": "ocular-buttons",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.5+6542e39",
   "description": "Buttons made with Ocular",
   "keywords": [
     "buttons"
@@ -8,7 +8,7 @@
   "author": "Vinamra Sareen <vsareen24@gmail.com>",
   "homepage": "https://github.com/Vsareen0/ocular/tree/main/src/components/Buttons#readme",
   "license": "MIT",
-  "main": "lib/Buttons.js",
+  "module": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -25,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/Vsareen0/ocular/issues"
-  }
+  },
+  "gitHead": "6542e396421cb4b63e3370f6aabfb5e7d0634dc4"
 }
